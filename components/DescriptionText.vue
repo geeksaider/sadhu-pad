@@ -4,7 +4,7 @@ const { custom } = defineProps(["custom"]);
 
 <template>
     <p
-        class="basis-1/2 uppercase max-md:text-xs max-md:leading-5 max-sm:text-[8px] max-sm:leading-4 text-primary-400"
+        class="basis-1/2 uppercase max-lg:text-xs max-md:leading-5 max-sm:text-[8px] max-sm:leading-4 text-primary-400"
         :class="custom"
     >
         <slot></slot>

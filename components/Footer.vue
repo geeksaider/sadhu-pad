@@ -4,7 +4,7 @@
         max-lg:border-1
     />
     <div class="max-w-[1000px] max-lg:max-w-[500px] mx-auto my-10 max-lg:my-6">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between max-sm:justify-around items-center">
             <div class="flex gap-8 max-lg:gap-4">
                 <a href="">
                     <svg
@@ -44,32 +44,31 @@
                     >
                         <path
                             d="M25.7296 29.2934C30.8168 43.1713 36.0834 48.7085 49.4815 54.6062L43.6751 62.7608C28.2899 55.395 20.6269 42.9787 17.0178 33.2892L25.7296 29.2934Z"
-                            fill="#4D0072"
                         />
                         <path
                             d="M29.9972 10.134C32.7175 10.1234 34.7858 12.3869 34.6004 14.95C34.3086 18.9834 34.6193 21.8935 35.4558 25.5006C35.9153 27.482 34.8758 29.4944 33.2237 30.7906C30.997 32.5377 29.2959 34.7638 27.9438 36.6801C26.0699 39.3362 19.6208 39.1454 18.1946 36.2518C15.2635 30.305 13.2771 19.349 17.5573 11.9469C18.2297 10.7842 19.5834 10.1747 20.9861 10.1693L29.9972 10.134Z"
-                            fill="#4D0072"
                         />
                         <path
                             d="M71.2898 54.1403C71.6281 51.5912 69.4975 49.3798 66.7809 49.2454C62.506 49.0339 59.4844 48.3927 55.7932 47.1746C53.7657 46.5055 51.5253 47.2381 49.964 48.6311C47.8598 50.5087 45.3152 51.8359 43.1381 52.873C40.1207 54.3105 39.5457 60.3798 42.4159 62.065C48.3146 65.5282 59.5924 68.7081 67.8881 65.5853C69.1911 65.0948 69.9946 63.8989 70.1691 62.5845L71.2898 54.1403Z"
-                            fill="#4D0072"
                         />
                     </svg>
                 </a>
             </div>
             <div
-                class="flex flex-col text-md max-lg:text-[10px] text-primary-400 font-semibold uppercase justify-center items-center"
+                class="flex flex-col text-md max-lg:text-[10px] max-sm:text-[8px] text-primary-400 font-semibold uppercase justify-center items-center"
             >
-                <p>Никита Бондарев</p>
-                <p>Кронштадтский б-р, 37Б, стр.3, Москва, Россия, 125499</p>
-                <p>2024</p>
+                <p class="text-center">
+                    Никита Бондарев<br />Кронштадтский б-р, 37Б, стр.3, Москва,
+                    Россия, 125499<br />
+                    2024
+                </p>
             </div>
             <div
-                class="flex flex-col text-md max-lg:text-[10px] text-primary-400 hover:primary-700 cursor-pointer text-right uppercase"
+                class="flex flex-col text-md max-lg:text-[10px] max-sm:text-[8px] text-primary-400 hover:primary-700 cursor-pointer text-right uppercase"
             >
-                <NuxtLink to="Catalog.vue"> Каталог </NuxtLink>
-                <NuxtLink> О гвоздях </NuxtLink>
-                <NuxtLink to="Trash.vue"> Купить </NuxtLink>
+                <NuxtLink to="/"> О гвоздях </NuxtLink>
+                <NuxtLink to="/catalog"> Каталог </NuxtLink>
+                <NuxtLink to="/trash"> Купить </NuxtLink>
             </div>
         </div>
     </div>

@@ -1,3 +1,7 @@
+<script setup></script>
+
 <template>
-    <About />
+    <Header />
+    <NuxtPage />
+    <Footer />
 </template>

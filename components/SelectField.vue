@@ -4,13 +4,15 @@ const {
     category,
     link,
     custom = "min-w-[240px]",
-} = defineProps(["type", "category", "link", "custom"]);
+    error = " ",
+} = defineProps(["type", "category", "link", "custom", "error"]);
+
 const selectedRadio = defineModel();
 </script>
 <template>
     <div
         class="flex justify-between items-center hover:scale-105 transition-all bg-stone-200/60 w-fit rounded-xl pr-5"
-        :class="custom"
+        :class="custom + ' ' + error"
     >
         <img
             :src="`catalog-images/${link}.png`"

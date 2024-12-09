@@ -5,7 +5,7 @@ const {
     trash = "hover:scale-105",
 } = defineProps(["wood", "catalog", "trash"]);
 
-const burger = ref(["hidden"]);
+const burger = ref("hidden");
 
 function changeBurger() {
     burger.value == "hidden"
@@ -25,7 +25,7 @@ function changeBurger() {
                 @click="changeBurger"
             ></div>
             <div
-                class="fixed top-4 right-4 w-full max-w-52 bg-white rounded-lg shadow-lg px-6 py-4 text-base font-semibold text-slate-900"
+                class="fixed top-4 right-4 w-full max-w-52 bg-white rounded-lg shadow-lg px-6 py-4 text-base font-semibold text-primary-900"
             >
                 <div class="flex flex-col gap-4">
                     <div class="flex justify-between">
@@ -34,7 +34,7 @@ function changeBurger() {
                         </NuxtLink>
                         <button
                             @click="changeBurger"
-                            class="inline items-center z-50 justify-center text-slate-500 hover:text-slate-600"
+                            class="inline items-center z-50 justify-center text-primary-400 hover:text-primary-700"
                         >
                             <svg viewBox="0 0 10 10" class="w-2.5 h-2.5 z-0">
                                 <path
@@ -47,14 +47,12 @@ function changeBurger() {
                             </svg>
                         </button>
                     </div>
- 
-                    <NuxtLink
-                        class="hover:text-primary-400"
-                        to="/catalog"
+
+                    <NuxtLink class="hover:text-primary-400" to="/catalog"
                         >Каталог</NuxtLink
                     >
 
-                    <NuxtLink class="hover:text-primary-400" to="/trash""
+                    <NuxtLink class="hover:text-primary-400" to="/trash"
                         >Корзина</NuxtLink
                     >
                 </div>
@@ -82,8 +80,8 @@ function changeBurger() {
                 to="/"
                 class="uppercase font-medium text-primary-400 hover:text-primary-700"
                 :class="wood"
-                >О досках</
-                NuxtLink>
+                >О досках</NuxtLink
+            >
             <NuxtLink
                 to="/catalog"
                 class="uppercase font-medium text-primary-400 hover:scale-105 hover:text-primary-700"

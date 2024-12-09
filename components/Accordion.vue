@@ -9,6 +9,7 @@ const {
     nailDistance,
     nailForm,
     addToning,
+    costPad,
 } = defineProps([
     "numberPad",
     "materialOne",
@@ -19,6 +20,7 @@ const {
     "nailDistance",
     "nailForm",
     "addToning",
+    "costPad",
 ]);
 
 const accordionClass = ref(["hidden"]);
@@ -55,6 +57,7 @@ function accordion() {
             <p>Расстояние - {{ nailDistance }}</p>
             <p>Форма доски - {{ nailForm }}</p>
             <p>Допы - {{ addToning == true ? "да" : "нет" }}</p>
+            <p class="font-bold">Цена - {{ costPad }}</p>
         </div>
     </div>
 </template>

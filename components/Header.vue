@@ -54,7 +54,7 @@ function changeBurger() {
                         >Каталог</NuxtLink
                     >
 
-                    <NuxtLink class="hover:text-primary-400" to="/pages/trash.vue""
+                    <NuxtLink class="hover:text-primary-400" to="/trash""
                         >Корзина</NuxtLink
                     >
                 </div>

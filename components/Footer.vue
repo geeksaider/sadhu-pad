@@ -3,7 +3,9 @@
         class="w-full border-2 border-primary-700 mt-32 max-lg:mt-16"
         max-lg:border-1
     />
-    <div class="max-w-[1000px] max-lg:max-w-[500px] mx-auto my-10 max-lg:my-6">
+    <div
+        class="max-w-[1000px] max-lg:max-w-[500px] max-md:max-w-[400px] mx-auto my-10 max-lg:my-6"
+    >
         <div class="flex justify-between max-sm:justify-around items-center">
             <div class="flex gap-8 max-lg:gap-4">
                 <a href="">

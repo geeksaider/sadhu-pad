@@ -5,11 +5,13 @@ const carousel = ["big1", "big2", "big3"];
 <template>
     <main class="max-lg:max-w-2xl max-w-4xl max-md:max-w-xl my-20 mx-auto">
         <BlockHeading> Материалы </BlockHeading>
-        <div class="flex flex-col gap-12">
+        <div class="flex flex-col gap-12 max-md:gap-8">
             <DescriptionHeading :custom="'text-2xl opacity-90'"
                 >Дерево</DescriptionHeading
             >
-            <div class="grid grid-cols-4 mt-8 max-lg:grid-cols-2 gap-4">
+            <div
+                class="grid grid-cols-4 mt-8 max-lg:grid-cols-2 gap-4 max-md:size-52 max-md:mb-20 max-md:mt-0 max-md:mx-auto"
+            >
                 <div class="flex flex-col gap-4 items-center">
                     <img src="../public/catalog-images/material/merabu.png" />
                     <DescriptionText>Мерабу</DescriptionText>
@@ -31,7 +33,7 @@ const carousel = ["big1", "big2", "big3"];
                 >EVA</DescriptionHeading
             >
             <div
-                class="grid grid-cols-7 auto-rows-auto max-lg:grid-cols-4 max-md:grid-cols-2 items-center place-items-center justify-center mt-8 gap-4"
+                class="grid grid-cols-7 auto-rows-auto max-md:size-44 max-md:mx-auto max-lg:grid-cols-4 max-md:grid-cols-4 items-center place-items-center justify-center mt-8 max-md:mt-0 gap-4"
             >
                 <img
                     src="../public/catalog-images/colors/yellow.png"
@@ -97,7 +99,7 @@ const carousel = ["big1", "big2", "big3"];
                 <img
                     src="../public/catalog-images/colors/orange.png"
                     alt=""
-                    class="w-fit max-lg:col-start-2 max-md:col-start-1"
+                    class="w-fit max-lg:col-start-2 max-md:col-start-2"
                 />
                 <img
                     src="../public/catalog-images/colors/black.png"
@@ -107,14 +109,16 @@ const carousel = ["big1", "big2", "big3"];
             </div>
         </div>
         <BlockHeading>ГВОЗДи</BlockHeading>
-        <section class="flex flex-col gap-16">
-            <div class="flex gap-12 max-md:gap-4 justify-center items-center">
+        <section class="flex flex-col max-md:gap-8 gap-16">
+            <div
+                class="flex gap-12 max-md:gap-4 max-md:max-w-xs max-md:mx-auto justify-center items-center"
+            >
                 <img
                     src="../public/catalog-images/nail/zinc.png"
                     alt=""
-                    class="max-lg:h-80 max-md:h-52"
+                    class="max-lg:h-80 max-md:w-44 max-md:h-auto"
                 />
-                <div class="flex flex-col gap-12 max-md:gap-4 max-md:mr-2">
+                <div class="flex flex-col gap-12 max-md:gap-4">
                     <DescriptionHeading :custom="'text-2xl opacity-90 '"
                         >Цинковые</DescriptionHeading
                     >
@@ -126,7 +130,9 @@ const carousel = ["big1", "big2", "big3"];
                     >
                 </div>
             </div>
-            <div class="flex gap-12 justify-center max-md:gap-4 items-center">
+            <div
+                class="flex gap-12 justify-center max-md:gap-4 max-md:max-w-xs max-md:mx-auto items-center"
+            >
                 <div class="flex flex-col gap-12 max-md:gap-4 ml-4">
                     <DescriptionHeading :custom="'text-2xl opacity-90 '"
                         >Медные</DescriptionHeading
@@ -141,7 +147,7 @@ const carousel = ["big1", "big2", "big3"];
                 <img
                     src="../public/catalog-images/nail/cuprum.png"
                     alt=""
-                    class="max-lg:h-80 max-md:h-44"
+                    class="max-lg:h-80 max-md:h-auto max-md:w-44"
                 />
             </div>
             <div class="flex justify-around">

@@ -57,4 +57,12 @@ function nextPNG() {
             </svg>
         </button>
     </div>
+    <div class="hidden">
+        <img src="/main-page-image/carousel-image/carousel1.png" alt="" />
+        <img src="/main-page-image/carousel-image/carousel2.png" alt="" />
+        <img src="/main-page-image/carousel-image/carousel3.png" alt="" />
+        <img src="/main-page-image/carousel-image/big1.png" alt="" />
+        <img src="/main-page-image/carousel-image/big2.png" alt="" />
+        <img src="/main-page-image/carousel-image/big3.png" alt="" />
+    </div>
 </template>

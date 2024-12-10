@@ -1,9 +1,5 @@
 <script setup>
-const carousel = [
-    "/main-page-image/carousel-image/big1.png",
-    "/main-page-image/carousel-image/big2.png",
-    "/main-page-image/carousel-image/big3.png",
-];
+const carousel = ["big1", "big2", "big3"];
 </script>
 
 <template>

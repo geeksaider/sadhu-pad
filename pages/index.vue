@@ -64,12 +64,12 @@
                 <img
                     src="/main-page-image/sadxy1.png"
                     alt=""
-                    class="max-lg:rounded-lg max-lg:max-w-[90%] max-lg:h-fit"
+                    class="max-lg:rounded-lg max-lg:max-w-[50%] max-lg:h-fit"
                 />
                 <img
                     src="/main-page-image/sadxy2.png"
                     alt=""
-                    class="max-lg:rounded-lg max-lg:block max-lg:max-w-[90%] max-lg:h-fit hidden"
+                    class="max-lg:rounded-lg max-lg:block max-lg:max-w-[50%] max-lg:h-fit hidden"
                 />
             </div>
             <DescriptionText

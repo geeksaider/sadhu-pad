@@ -114,7 +114,7 @@
                     <img
                         src="/main-page-image/arrow.svg"
                         alt=""
-                        class="block h-[100%] object-fill"
+                        class="block h-[100%] max-md:h-[80%] object-fill"
                     />
                 </div>
                 <div

@@ -13,19 +13,19 @@ const carousel = ["big1", "big2", "big3"];
                 class="grid grid-cols-4 mt-8 max-lg:grid-cols-2 gap-4 max-md:size-52 max-md:mb-20 max-md:mt-0 max-md:mx-auto"
             >
                 <div class="flex flex-col gap-4 items-center">
-                    <img src="../public/catalog-images/material/merabu.png" />
+                    <img src="/catalog-images/material/merabu.png" />
                     <DescriptionText>Мерабу</DescriptionText>
                 </div>
                 <div class="flex flex-col gap-4 items-center">
-                    <img src="../public/catalog-images/material/oak.png" />
+                    <img src="/catalog-images/material/oak.png" />
                     <DescriptionText>Дуб</DescriptionText>
                 </div>
                 <div class="flex flex-col gap-4 items-center">
-                    <img src="../public/catalog-images/material/beech.png" />
+                    <img src="/catalog-images/material/beech.png" />
                     <DescriptionText>Бук</DescriptionText>
                 </div>
                 <div class="flex flex-col gap-4 items-center">
-                    <img src="../public/catalog-images/material/ash.png" />
+                    <img src="/catalog-images/material/ash.png" />
                     <DescriptionText>Ясень</DescriptionText>
                 </div>
             </div>
@@ -36,73 +36,73 @@ const carousel = ["big1", "big2", "big3"];
                 class="grid grid-cols-7 auto-rows-auto max-md:size-44 max-md:mx-auto max-lg:grid-cols-4 max-md:grid-cols-4 items-center place-items-center justify-center mt-8 max-md:mt-0 gap-4"
             >
                 <img
-                    src="../public/catalog-images/colors/yellow.png"
+                    src="/catalog-images/colors/yellow.png"
                     alt=""
                     class="w-fit"
                 />
 
                 <img
-                    src="../public/catalog-images/colors/blue.png"
+                    src="/catalog-images/colors/blue.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/blue2.png"
+                    src="/catalog-images/colors/blue2.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/violet.png"
+                    src="/catalog-images/colors/violet.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/pink.png"
+                    src="/catalog-images/colors/pink.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/pink2.png"
+                    src="/catalog-images/colors/pink2.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/brown.png"
+                    src="/catalog-images/colors/brown.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/gray.png"
+                    src="/catalog-images/colors/gray.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/white.png"
+                    src="/catalog-images/colors/white.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/gray2.png"
+                    src="/catalog-images/colors/gray2.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/gray3.png"
+                    src="/catalog-images/colors/gray3.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/green.png"
+                    src="/catalog-images/colors/green.png"
                     alt=""
                     class="w-fit"
                 />
                 <img
-                    src="../public/catalog-images/colors/orange.png"
+                    src="/catalog-images/colors/orange.png"
                     alt=""
                     class="w-fit max-lg:col-start-2 max-md:col-start-2"
                 />
                 <img
-                    src="../public/catalog-images/colors/black.png"
+                    src="/catalog-images/colors/black.png"
                     alt=""
                     class="w-fit"
                 />
@@ -114,7 +114,7 @@ const carousel = ["big1", "big2", "big3"];
                 class="flex gap-12 max-md:gap-4 max-md:max-w-xs max-md:mx-auto justify-center items-center"
             >
                 <img
-                    src="../public/catalog-images/nail/zinc.png"
+                    src="/catalog-images/nail/zinc.png"
                     alt=""
                     class="max-lg:h-80 max-md:w-44 max-md:h-auto"
                 />
@@ -145,7 +145,7 @@ const carousel = ["big1", "big2", "big3"];
                     >
                 </div>
                 <img
-                    src="../public/catalog-images/nail/cuprum.png"
+                    src="/catalog-images/nail/cuprum.png"
                     alt=""
                     class="max-lg:h-80 max-md:h-auto max-md:w-44"
                 />

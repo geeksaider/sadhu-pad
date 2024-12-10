@@ -60,7 +60,7 @@ function changeBurger() {
         </div>
         <NuxtLink to="/">
             <img
-                src="../public/lotos.svg"
+                src="/lotos.svg"
                 alt="Лотос, Lotos"
                 class="size-12 hover:cursor-pointer max-lg:size-8"
             />
@@ -73,7 +73,7 @@ function changeBurger() {
             </h1>
         </div>
         <div class="hidden max-md:block" @click="changeBurger">
-            <img src="../public/burger.svg" alt="" />
+            <img src="/burger.svg" alt="" />
         </div>
         <div class="flex gap-16 max-md:hidden">
             <NuxtLink

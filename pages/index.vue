@@ -14,7 +14,7 @@
             class="my-20 flex gap-16 max-lg:my-8 max-lg:gap-7 max-md:gap-4 justify-center items-center"
         >
             <img
-                src="../public/main-page-image/sadxy4.png"
+                src="/main-page-image/sadxy4.png"
                 alt=""
                 class="max-h-80 max-lg:max-w-[35%] max-lg:rounded-lg"
             />
@@ -62,12 +62,12 @@
                 class="flex flex-col max-lg:gap-4 max-sm:gap-1 items-center justify-center"
             >
                 <img
-                    src="../public/main-page-image/sadxy1.png"
+                    src="/main-page-image/sadxy1.png"
                     alt=""
                     class="max-lg:rounded-lg max-lg:max-w-[90%] max-lg:h-fit"
                 />
                 <img
-                    src="../public/main-page-image/sadxy2.png"
+                    src="/main-page-image/sadxy2.png"
                     alt=""
                     class="max-lg:rounded-lg max-lg:block max-lg:max-w-[90%] max-lg:h-fit hidden"
                 />
@@ -82,17 +82,17 @@
             </DescriptionText>
             <div class="cols-span-2 flex gap-12 max-lg:gap-10">
                 <img
-                    src="../public/main-page-image/sadxy5.png"
+                    src="/main-page-image/sadxy5.png"
                     alt=""
                     class="max-lg:rounded-lg max-lg:max-w-[90%]"
                 />
                 <img
-                    src="../public/main-page-image/sadxy2.png"
+                    src="/main-page-image/sadxy2.png"
                     alt=""
                     class="max-lg:hidden"
                 />
                 <img
-                    src="../public/main-page-image/sadxy7.png"
+                    src="/main-page-image/sadxy7.png"
                     alt=""
                     class="hidden max-lg:block max-lg:rounded-lg max-lg:max-w-[90%]"
                 />
@@ -112,7 +112,7 @@
             <div class="flex gap-18 max-lg:gap-6 max-sm:gap-2">
                 <div class="flex max-h-[700px] ml-8 max-lg:ml-3">
                     <img
-                        src="../public/main-page-image/arrow.svg"
+                        src="/main-page-image/arrow.svg"
                         alt=""
                         class="block h-[100%] object-fill"
                     />
@@ -126,12 +126,12 @@
                         расположение.</DescriptionText
                     >
                     <img
-                        src="../public/main-page-image/sadxy8.png"
+                        src="/main-page-image/sadxy8.png"
                         alt=""
                         class="h-[250px] max-lg:h-[100px] mx-auto rounded-lg"
                     />
                     <img
-                        src="../public/main-page-image/sadxy6.png"
+                        src="/main-page-image/sadxy6.png"
                         alt=""
                         class="h-[250px] max-lg:h-[100px] w-[110% ] mx-auto"
                     />
@@ -156,8 +156,6 @@
                 >Начинающий</DescriptionHeading
             >
         </div>
-        <div class="flex justify-center">
-            <Button>Купить</Button>
-        </div>
+        <div class="flex justify-center"><Button>Купить</Button>s</div>
     </main>
 </template>

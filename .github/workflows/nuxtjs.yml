@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: "20"
       - run: npm install
-      - run: npx nuxt build --preset github_pages
+      - run: NUXT_APP_BASE_URL=/sadhu-pad/ npx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

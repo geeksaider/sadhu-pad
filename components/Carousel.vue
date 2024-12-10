@@ -1,6 +1,12 @@
 <script setup>
-const { carousel = ["carousel1", "carousel2", "carousel3"], custom } =
-    defineProps(["carousel", "custom"]);
+const {
+    carousel = [
+        "/main-page-image/carousel-image/carousel1.png",
+        "/main-page-image/carousel-image/carousel2.png",
+        "/main-page-image/carousel-image/carousel3.png",
+    ],
+    custom,
+} = defineProps(["carousel", "custom"]);
 const n = ref([0]);
 
 function downPNG() {
@@ -30,7 +36,7 @@ function nextPNG() {
             </svg>
         </button>
         <img
-            :src="`/main-page-image/carousel-image/${carousel[n]}.png`"
+            :src="`${carousel[n]}`"
             alt=""
             class="max-w-[80%] max-lg:w-[60%] max-lg:rounded-lg rounded-md"
             :class="custom"

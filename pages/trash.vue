@@ -156,7 +156,9 @@ function showForm() {
     >
         <DescriptionHeading>Покупка</DescriptionHeading>
         <BlockHeading class="w-full">Материал внешней стороны:</BlockHeading>
-        <div class="grid gap-5 place-items-center grid-cols-3 items-center">
+        <div
+            class="grid gap-5 place-items-center grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 items-center"
+        >
             <SelectField
                 :type="'beech'"
                 :category="'materialOne'"
@@ -222,7 +224,9 @@ function showForm() {
             </select>
         </div>
         <BlockHeading class="w-full">Материал внутреней стороны:</BlockHeading>
-        <div class="grid gap-5 place-items-center grid-cols-3 items-center">
+        <div
+            class="grid gap-5 place-items-center grid-cols-3 items-center max-lg:grid-cols-2 max-sm:grid-cols-1"
+        >
             <SelectField
                 :type="'beech'"
                 :category="'materialTwo'"
@@ -289,7 +293,7 @@ function showForm() {
         </div>
         <BlockHeading class="w-full">Гвозди:</BlockHeading>
         <div
-            class="grid gap-5 place-items-center grid-cols-2 justify-center items-center"
+            class="grid gap-5 place-items-center grid-cols-2 justify-center items-center max-lg:grid-cols-1"
         >
             <SelectField
                 :category="'nail'"
@@ -321,7 +325,7 @@ function showForm() {
         </div>
         <BlockHeading class="w-full">Форма:</BlockHeading>
         <div
-            class="grid gap-5 grid-cols-2 place-items-center justify-center items-center"
+            class="grid gap-5 grid-cols-2 place-items-center justify-center items-center max-lg:grid-cols-2 max-sm:grid-cols-1"
         >
             <SelectField
                 :category="'padform'"
@@ -397,7 +401,9 @@ function showForm() {
             class="w-full border-2 border-primary-700 mt-32 max-lg:mt-16"
             max-lg:border-1
         />
-        <div class="flex justify-between text-left">
+        <div
+            class="flex justify-between max-lg:flex-col max-lg:items-center max-lg:gap-6 text-left"
+        >
             <div class="flex gap-4">
                 <DescriptionHeading :mx="'mx-0'">Итог:</DescriptionHeading>
                 <DescriptionHeading>{{ cost }}</DescriptionHeading>
@@ -417,14 +423,12 @@ function showForm() {
                         :costPad="pad.costPad"
                     ></Accordion>
                     <button
-                        class="hover:scale-105 transition-all duration-100"
+                        class="hover:scale-105 my-3 max-lg:size-4 size-6 transition-all duration-100"
                         @click="delitePad(pad.index)"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            height="24px"
                             viewBox="0 -960 960 960"
-                            width="24px"
                             fill="#EA3323"
                         >
                             <path

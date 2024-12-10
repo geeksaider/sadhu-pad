@@ -33,15 +33,15 @@ function accordion() {
 </script>
 
 <template>
-    <div>
+    <div class="flex justify-center flex-col">
         <button
-            class="bg-slate-400 hover:scale-105 py-2 w-fit px-12 rounded-3xl text-xl duration-500 font-bold uppercase transition-all hover:bg-slate-500/80 text-white"
+            class="bg-slate-400 max-lg:text-sm max-lg:py-1 max-lg:px-3 hover:scale-105 py-2 px-12 rounded-3xl text-xl duration-500 font-bold uppercase transition-all hover:bg-slate-500/80 text-white"
             @click="accordion"
         >
             Доска {{ numberPad }} ᐯ
         </button>
         <div
-            class="bg-white text-center py-3 overflow-hidden transition-all duration-500 text-black font-bold flex-col gap-3 pt-8"
+            class="bg-white text-center py-3 max-lg:text-sm overflow-hidden transition-all duration-500 text-black font-bold flex-col gap-3 pt-8"
             :class="accordionClass"
         >
             <p>

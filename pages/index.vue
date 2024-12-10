@@ -156,6 +156,6 @@
                 >Начинающий</DescriptionHeading
             >
         </div>
-        <div class="flex justify-center"><Button>Купить</Button>s</div>
+        <div class="flex justify-center"><Button>Купить</Button></div>
     </main>
 </template>

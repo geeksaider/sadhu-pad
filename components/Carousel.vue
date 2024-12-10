@@ -30,7 +30,7 @@ function nextPNG() {
             </svg>
         </button>
         <img
-            :src="`~/assets/images/carousel-image/${carousel[n]}.png`"
+            :src="`assets/images/carousel-image/${carousel[n]}.png`"
             alt=""
             class="max-w-[80%] max-lg:w-[60%] max-lg:rounded-lg rounded-md"
             :class="custom"

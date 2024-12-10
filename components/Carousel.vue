@@ -12,7 +12,7 @@ function nextPNG() {
 </script>
 <template>
     <div
-        class="flex max-w-5xl mx-auto max-lg:max-w-[700px] max-lg:justify-center max-lg:gap-4 items-center justify-between"
+        class="flex max-w-5xl my-12 mx-auto max-lg:max-w-[700px] max-lg:justify-center max-lg:gap-4 items-center justify-between"
     >
         <button
             class="bg-[#CBD5E1] p-4 flex hover:opacity-60 max-lg:p-2 transition-all items-center rounded-full"
@@ -30,7 +30,7 @@ function nextPNG() {
             </svg>
         </button>
         <img
-            :src="`assets/images/carousel-image/${carousel[n]}.png`"
+            :src="`main-page-image/carousel-image/${carousel[n]}.png`"
             alt=""
             class="max-w-[80%] max-lg:w-[60%] max-lg:rounded-lg rounded-md"
             :class="custom"

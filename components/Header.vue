@@ -75,22 +75,25 @@ function changeBurger() {
         <div class="hidden max-md:block" @click="changeBurger">
             <img src="../public/burger.svg" alt="" />
         </div>
-        <div class="flex gap-24 max-md:hidden">
+        <div class="flex gap-16 max-md:hidden">
             <NuxtLink
                 to="/"
-                class="uppercase font-medium text-primary-400 hover:text-primary-700"
+                class="uppercase font-medium text-primary-400 hover:text-primary-700 px-4 py-1 rounded-md"
                 :class="wood"
+                active-class="bg-stone-200/40"
                 >О досках</NuxtLink
             >
             <NuxtLink
                 to="/catalog"
-                class="uppercase font-medium text-primary-400 hover:scale-105 hover:text-primary-700"
+                class="uppercase font-medium text-primary-400 hover:scale-105 hover:text-primary-700 px-4 py-1 rounded-md"
                 :class="catalog"
+                active-class="bg-stone-200/40"
                 >Каталог</NuxtLink
             >
             <NuxtLink
                 to="/trash"
-                class="uppercase font-medium text-primary-400 hover:scale-105 hover:text-primary-700"
+                class="uppercase font-medium text-primary-400 hover:scale-105 hover:text-primary-700 px-4 py-1 rounded-md"
+                active-class="bg-stone-200/40"
                 :class="trash"
                 >Корзина</NuxtLink
             >

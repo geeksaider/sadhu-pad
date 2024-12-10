@@ -169,7 +169,7 @@ const carousel = ["big1", "big2", "big3"];
             <DescriptionHeading>ФОрмы</DescriptionHeading>
             <Carousel
                 :carousel="carousel"
-                :custom="'object-contain'"
+                custom="object-contain aspect-square"
             ></Carousel>
         </div>
     </main>
